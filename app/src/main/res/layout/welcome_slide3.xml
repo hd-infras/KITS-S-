@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+
+
+            android:layout_centerHorizontal="true"
+
+            android:src="@drawable/bellss" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_mono_thin"
+            android:text="@string/slide_3_title"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/slide_3_desc"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_desc"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/regs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:fontFamily="@font/roboto_mono_thin"
+            android:onClick="registerd"
+            android:text="Register"
+            android:textAppearance="@style/TextAppearance.AppCompat.Notification.Info"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+        <Button
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:fontFamily="@font/roboto_mono_thin"
+            android:onClick="verify"
+            android:text="verify"
+            android:textAppearance="@style/TextAppearance.AppCompat.Notification.Info"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+</RelativeLayout>

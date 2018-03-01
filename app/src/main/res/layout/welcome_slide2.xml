@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+       <!-- <ImageView
+            android:layout_width="@dimen/img_width_height"
+            android:layout_height="@dimen/img_width_height"
+           />
+           -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="@string/slide_2_title"
+            android:textAllCaps="false"
+            android:textAppearance="@android:style/TextAppearance.Material.Display1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_mono_thin"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/slide_2_desc"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@android:style/TextAppearance.Material.DialogWindowTitle"
+            android:textColor="@color/common_google_signin_btn_text_dark"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/grants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+            android:fontFamily="@font/roboto_mono_thin"
+            android:text="Grant Permission"
+            android:textAppearance="@style/TextAppearance.AppCompat.Notification.Info"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:onClick="permissions"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

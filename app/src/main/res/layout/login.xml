@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    tools:context="in.hd_infra.www.HDInfra.cloud"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/nobgcloud"
+
+        android:id="@+id/gifImageView" />
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        card_view:cardCornerRadius="20dp"
+        android:layout_margin="35dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="2dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/cardView">
+
+
+
+    <!--ImageView
+        android:id="@+id/imageView"
+
+        app:srcCompat="@drawable/clglogo"
+
+        android:layout_centerHorizontal="true" /> -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <EditText
+            android:id="@+id/textId"
+            style="@android:style/Widget.Material.EditText"
+            android:layout_width="280dp"
+
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+
+            android:layout_marginBottom="8dp"
+
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+            android:ems="100"
+            android:hint="College ID"
+            android:inputType="text"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/textpass"
+            style="@android:style/Widget.Material.EditText"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+
+            android:layout_marginTop="18dp"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:hint="********"
+
+            android:inputType="textPassword"
+
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            style="@android:style/Widget.Material.Button"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+
+            android:layout_marginBottom="8dp"
+
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_mono_thin"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Button"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            tools:text="Login" />
+
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="10dp"
+            android:text="Forgot Password!"
+
+            android:textColor="#3343ff"
+
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewRegister"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="20dp"
+            android:text="Not yet Registered,Click here !"
+
+            android:textColor="#3343ff"
+
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/donates"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/cardView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="37dp"
+
+        android:text="Donate Us !"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+</RelativeLayout>

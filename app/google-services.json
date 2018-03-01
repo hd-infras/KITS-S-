@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "659273334594",
+    "firebase_url": "https://hdinfra-1cf84.firebaseio.com",
+    "project_id": "hdinfra-1cf84",
+    "storage_bucket": "hdinfra-1cf84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659273334594:android:a6ce2ba9f051f3aa",
+        "android_client_info": {
+          "package_name": "in.hd_infra.www.HDInfra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659273334594-lqjg9rko6v9cfsfvavi7pbr30v54vpj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.hd_infra.www.HDInfra",
+            "certificate_hash": "bd5d431ea8bec6c9910b69d428917cfd8273cbfc"
+          }
+        },
+        {
+          "client_id": "659273334594-l2aiq5kaf3njsrvolqg4ggltrlo76odc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcLzccqN1wlZc-MF3DKar-XRNWTyBrjfc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659273334594-l2aiq5kaf3njsrvolqg4ggltrlo76odc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

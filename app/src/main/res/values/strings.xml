@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">KITS(S)</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settingss">Profile</string>
+    <string name="geofence_enter">Now entering %1$s</string>
+    <string name="geofence_dwell">Dwelling in %1$s</string>
+    <string name="geofence_exit">Now exiting %1$s</string>
+    <string name="events">Events</string>
+    <string name="map">Map</string>
+    <string name="transition">Transition</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">App registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">Too many PendingIntents provided</string>
+    <string name="unknown_geofence_error">Unknown error</string>
+    <string name="geofences_added">Geofences added</string>
+    <string name="geofences_removed">Geofences removed</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="AppBarLayout.ScrollingViewBehavior">appbar_scrolling_view_behavior</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">PREV</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello!</string>
+    <string name="slide_1_desc">I\'ll guide you through the app ,Lets dive in by clicking next ! </string>
+
+    <string name="slide_2_title">Permissions</string>
+    <string name="slide_2_desc">To enjoy all the features provided by us , You need to grant permissions for our app!</string>
+
+    <string name="slide_3_title">Notifications</string>
+    <string name="slide_3_desc">For getting notified by us , Do register your device with our servers.</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+    <string name="title_activity_test">test</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+</resources>
